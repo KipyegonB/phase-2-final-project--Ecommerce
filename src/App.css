@@ -21,3 +21,27 @@
   margin: "0 6px 6px";
   text-indent: 50px;
 }
+.imageContainer :hover {
+  background-color: rgb(18, 86, 52);
+}
+
+#about img {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar :hover {
+  background-color: rgb(92, 54, 54);
+}
+
+.active {
+  color: rgba(10, 10, 10, 0.985);
+}
+
+.about img {
+  width: 100%;
+}
+
+.about {
+  font-size: 2rem;
+}
