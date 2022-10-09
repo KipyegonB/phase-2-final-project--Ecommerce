@@ -9,7 +9,6 @@ import AboutUs from './AboutUs'
 
 function App() {
   const [productDescription, setProductDescription] = useState([])
-  const [checkProductDescription, setCheckProductDescription] = useState("")
   useEffect(() => {
     fetch("http://localhost:3000/EliteStore")
       .then((response) => response.json())
