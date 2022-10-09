@@ -1,11 +1,11 @@
 import React from 'react'
-import "../App.css"
 import { useEffect, useState } from 'react'
 import { Switch, Route } from "react-router-dom"
 import Homepage from "./Homepage"
 import NavBar from "./NavBar"
 import ProductsList from './ProductsList'
 import AboutUs from './AboutUs'
+import "../App.css"
 
 function App() {
   const [productDescription, setProductDescription] = useState([])
