@@ -1,9 +1,9 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
 import { Switch, Route } from "react-router-dom"
-import Homepage from "./Homepage"
+import Homepage from "./HomePage"
 import NavBar from "./NavBar"
-import ProductsList from './ProductsList'
+import ProductsList from './ProductList'
 import AboutUs from './AboutUs'
 import "../App.css"
 
